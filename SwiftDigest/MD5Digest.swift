@@ -107,6 +107,7 @@ fileprivate struct MD5State {
     var b = UInt32(0x70000000) + UInt32(0x7fcdab89) // 0xefcdab89
     var c = UInt32(0x40000000) + UInt32(0x58badcfe) // 0x98badcfe
     var d = UInt32(0x10325476)
+
     static let chunkSize = 64
     static let endOfMessageMarker: UInt8 = 0x80
 
